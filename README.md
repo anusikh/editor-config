@@ -1,10 +1,3 @@
-### vscode configuration
-
-#### vscode setup:
-- `code --list-extensions > ~/.config/nvim/vscode.list` to update the list
-- windows: `Get-Content vscode.list | ForEach-Object { code --install-extension $_ }`
-- unix: `xargs -n 1 code --install-extension < vscode.list`
-
 ### neovim configuration
 
 #### nvim setup:
